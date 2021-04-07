@@ -1,21 +1,19 @@
-# NachoSpigot
-A **maintained** version of NachoSpigot where some features have been removed or added to make sure the server is stable and works with most plugins but is also optimized.
-I am planning to support Java 15 but still support most plugins like ProtocolLib. Is this going to work out? We will see in the end.
+# What's this?
+A fork of Sculas's NachoSpigot, aimed for security fixes, exploit and duplication patches, and stability. 
 
-## Current State
-Java 15 is now natively supported, and ProtocolLib, Citizens and ViaVersion are patched at runtime to work with Nacho's patches.
+## Cool Features?
+Added by Sculas, Java 8 - 15 is now natively supported, and ProtocolLib, Citizens and ViaVersion are patched at runtime to work with Nacho's patches.
 Unless other bugs are found, Nacho should now run stable.
 
-**NachoSpigot supports Java 8 to Java 15!**
-
-**Download:** [Click here](https://nightly.link/Sculas/NachoSpigot/workflows/build-nachospigot/master/NachoSpigot%20server%20JAR.zip)
-
-I will maintain this version, because the official NachoSpigot is no longer maintained.
-If you know any patches that will help out, please create an issue or better create a PR so I can merge it. 
-
-#### Building / Compiling
+#### How do I Build / Compile the Project?
 To build, clone the repo, and run `mvn clean package` in the NachoSpigot directory.
 *You need Java 8-15 and Maven to compile.*
+
+## Note
+Please note that I probably won't list every patch that I input. It's best to look at the history of changes via Github, if you want to know what actually changed!
+Also note that this is a project, and I won't have time to be here everyday, though I'll try my best!
+I will attempt to maintain this 1.8 fork, as there are no other major providers supporting it. 
+If you have a patch, create a pull request and I'll review it in a timely manner! 
 
 ## Backported Patches
 ```
@@ -121,11 +119,13 @@ To build, clone the repo, and run `mvn clean package` in the NachoSpigot directo
 [Nacho-0022] Sync is maintained higher up and is causing issues
 ```
 
-## Discord
+## Project Discussion
 [Join the Discord server!](https://discord.gg/SBTEbSx)
 
-## Supporters 
+## The Team
 
 [Henry Lanier](youtube.com/channel/UCYKmXuEo1ZVMzvsWwaBeBwQ) (MILDJELLYo#9091)
 
 [Lucas (aka Sculas)](https://sculas.xyz/)
+
+[Wizz (aka skw359)] (https://github.com/skw359)
