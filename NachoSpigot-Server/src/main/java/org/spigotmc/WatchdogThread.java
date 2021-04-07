@@ -55,10 +55,10 @@ public class WatchdogThread extends Thread
             if ( lastTick != 0 && System.currentTimeMillis() > lastTick + timeoutTime )
             {
                 Logger log = Bukkit.getServer().getLogger();
-                log.log( Level.SEVERE, "The server has stopped responding!" );
-                log.log( Level.SEVERE, "Please report this to NachoSpigot directly!" );
+                log.log( Level.SEVERE, "-- THE SERVER IS NOT RESPONDING -- THIS IS NOT A BUG OR CRASH --" );
+                log.log( Level.SEVERE, "Please look for any plugins in this thread dump!" );
                 log.log( Level.SEVERE, "Be sure to include ALL relevant console errors and Minecraft crash reports" );
-                log.log( Level.SEVERE, "NachoSpigot version: " + Bukkit.getServer().getVersion() );
+                log.log( Level.SEVERE, "Server version: " + Bukkit.getServer().getVersion() );
                 //
                 if(net.minecraft.server.World.haveWeSilencedAPhysicsCrash)
                 {
